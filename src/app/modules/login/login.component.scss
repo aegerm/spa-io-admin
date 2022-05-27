@@ -1,0 +1,58 @@
+input[type="text"]::placeholder {
+    text-align: center;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="password"]::placeholder {
+    text-align: center;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-image {
+    background-color: #6788FF;
+    height: 100vh;
+}
+
+.container-form-login {
+    height: 100vh;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 30%;
+}
+
+.form-control {
+    max-width: 360px;
+    width: 360px;
+    height: 65px;
+    max-height: 65px;
+    margin-bottom: 10px;
+    background-color: #F5F6FA;
+}
+
+.btn-primary {
+    background-color: #6788FF;
+    border-color: #6788FF;
+    font-family: 'Roboto', sans-serif;
+    max-width: 360px;
+    max-height: 65px;
+    width: 360px;
+    height: 65px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding-top: 25%;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #6788FF;
+}

@@ -1,0 +1,20 @@
+<div class="main-container d-flex">
+    <div class="sidebar" id="side_nav">
+        <div class="header-box px-3 pt-3 pb-4">
+            <span class="text-white px-2 me-2 rounded">IO Admin</span>
+        </div>
+        <hr style="background-color: #fff;" class="mx-2 mb-4">
+        <ul class="list-unstyled px-2">
+            <li class="nav-item"><a [routerLink]="['/home/dashboard']" class="text-decoration-none px-3 py-2 d-block"><fa-icon [icon]="faHome"></fa-icon>Dashboard</a></li>
+            <li class="nav-item"><a [routerLink]="['/home/devices']" class="text-decoration-none px-3 py-2 d-block"><fa-icon [icon]="faDevice"></fa-icon>Dispositivos</a></li>
+            <li class="nav-item"><a [routerLink]="['/home/user-register']" class="text-decoration-none px-3 py-2 d-block"><fa-icon [icon]="faUser"></fa-icon>Registrar Usuário</a></li>
+            <li class="nav-item"><a [routerLink]="['/home/device-config']" class="text-decoration-none px-3 py-2 d-block"><fa-icon [icon]="faConfigDevice"></fa-icon>Configurar Dispositivo</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="container-fluid">
+            <app-header></app-header>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
